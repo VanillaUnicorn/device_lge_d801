@@ -1,8 +1,8 @@
-# Inherit some common AOKP stuff
-$(call inherit-product, vendor/aokp/configs/common.mk)
+# Inherit some common VU stuff
+$(call inherit-product, vendor/vanilla/configs/common.mk)
 
 # Inherit some common GSM stuff
-$(call inherit-product, vendor/aokp/configs/gsm.mk)
+$(call inherit-product, vendor/vanilla/configs/gsm.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/d801/d801.mk)
